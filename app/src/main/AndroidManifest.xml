@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.colortap.colortap">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.colortap.colortap.Splash"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.colortap.colortap.IntroPageActivity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            />
+        <activity
+            android:name="com.colortap.colortap.MainActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            />
+        <activity
+            android:name="com.colortap.colortap.Preferences"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="Settings"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            />
+    </application>
+
+</manifest>

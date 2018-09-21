@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ColorTap</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_new_game">New Game</string>
+    <string name="menu_quit">Quit</string>
+    <string name="start">PLAY</string>
+    <string name="settings">SETTINGS</string>
+    <string name="quit">QUIT</string>
+    <string name="example_author">-Lao Tzu</string>
+    <string name="example_quote">To the mind that stands still,\\nThe whole universe surrenders.</string>
+    <string name="setting_music">Music</string>
+    <string name="setting_haptic">Haptic Feedback</string>
+    <string name="setting_musicsummary">Check to have background music played during the game</string>
+    <string-array name="difficulty">
+        <item>"Calm"</item>
+        <item>"Laidback"</item>
+        <item>"Comfortable"</item>
+        <item>"Challenging"</item>
+        <item>"Difficult"</item>
+        <item>"Intense"</item>
+        <item>"Cruel"</item>
+    </string-array>
+</resources>
